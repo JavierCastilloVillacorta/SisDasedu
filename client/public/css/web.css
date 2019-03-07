@@ -1,14 +1,166 @@
 
 .c-header{
-  background: #127ba3;
+  background: #127ba3 !important;
+}
+.c-buscador{
+  background:  #126680;
+  border:none;
+  border-radius: 0px;
+}
+
+.c-buscador:placeholder{
+  background:  #999999;
+}
+
+.c-transparent{
+  background: rgba(0, 0, 0, .5);
+  color: #fff;
+  width: 60%;
+  text-align: left;
+  font-size: 12px;
 }
 
 .cont-logo{
-  width: 175px;
-  height: 165;
+  width: 50px;
+  height: 50px;
 }
 
 .img-g{
   width: 100%;
   height: 100%;
+}
+
+.img-b{
+  width: 90%;
+  height: 90%;
+}
+
+.img-carrito{
+  height: 20px;
+  margin-top: 10px;
+}
+
+.cont-buscador{
+  width: 43px;
+  height: 38px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.cont-impb{
+  height: 38px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.letra1{
+  color: #fff !important;
+  font-size: 14px;
+}
+
+.li-menu{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bt-menu{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.li-menu:Hover{
+  background: #126680;
+  border-radius: 5px;
+}
+
+.active-menu{
+  background: #126680;
+  border-radius: 5px;
+}
+
+.cont-slider{
+  max-height: 550px;
+  min-height: 100px;
+  overflow: hidden;
+}
+
+.cont-jum{
+  top: 100px;
+}
+.cont-imgcar{
+  width: 100px;
+  height: 100px;
+  top: 15px;
+  position: relative;
+  z-index: 10;
+}
+
+
+.sborder{
+  border: none;
+}
+
+.c-li1{
+  background: #dc7633;
+}
+
+.c-li2{
+  background: #e6e6e6;
+}
+
+.border-r{
+  border-right: 1px solid #000;
+}
+
+.borderb-r{
+  border-right: 1px solid #fff;
+}
+
+.pm-0{
+  padding: 0px;
+  margin: 0px;
+}
+.p-0{
+  padding: 1rem 0.5rem !important;
+}
+
+.active-c{
+  background: #5f98c9;
+}
+
+.c-btncurso{
+  background: #5fc1ef;
+}
+
+.card-img-c1{
+  width: 14rem !important;
+}
+
+.card-img-c2{
+  width: 15px;
+}
+
+.font-12{
+  font-size: 12px;
+}
+
+.cont-redes{
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+.sombra-cat{
+  -webkit-box-shadow: 6px 7px 0px 4px rgba(204,204,204,1);
+  -moz-box-shadow: 6px 7px 0px 4px rgba(204,204,204,1);
+  box-shadow: 6px 7px 0px 4px rgba(204,204,204,1);
+}
+
+.c-ng{
+  background: #000;
+}
+.cont-copr{
+  width: 50px;
+}
+
+.img-c{
+  width: 200px;
 }
