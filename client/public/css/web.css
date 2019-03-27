@@ -449,12 +449,6 @@
   padding-bottom: 10px;
   text-align: justify;
 }
-.c-img{
-  background: #ffbd1a;
-  border-radius: 5px;
-  -webkit-box-shadow: 10px 10px 0 0 #f08e10;
-  box-shadow: 10px 10px 0 0 #f08e10;
-}
 .img-cert{
   overflow: hidden;
 }
@@ -479,6 +473,13 @@
   width: 30%;
   height: auto;
   margin: 30px;
+}
+.c-header-tyc{
+  overflow: hidden;
+}
+.c-header-tyc img{
+  width: 100%;
+  margin: 0px auto;
 }
 /*RESPONSIVE*/
 
