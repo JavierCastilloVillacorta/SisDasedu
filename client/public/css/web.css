@@ -67,21 +67,40 @@
   color: #fff !important;
   font-size: 14px;
 }
-.ul-menu{
-  width: 100%;
-}
 .li-menu{
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
-
+.li-menu a{
+  color: #fff !important;
+  font-size: 15px;
+}
+.li-menu:hover{
+  background: #126680;
+}
+.li-menu-drop div{
+  background: #127ba3 !important;
+}
+.li-menu-drop div a:hover{
+  background: #126680;
+}
+.li-activo{
+  background: #126680;
+  border-radius: 5px;
+}
 .bt-menu{
   padding-left: 40px;
   padding-right: 40px;
 }
-
+.btn-buscar{
+  background: #23a127;
+  color: #fff;
+}
+.buscador{
+  font-size: 15px;
+}
 .li-menu:Hover{
   background: #126680;
   border-radius: 5px;
@@ -239,8 +258,11 @@
 .title-form{
   font-size: 2rem !important;
 }
+.c-gen-login{
+  margin-top: 80px !important;
+}
 .c-login{
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 70px;
 }
 .c-form-pago{
@@ -481,9 +503,34 @@
   width: 100%;
   margin: 0px auto;
 }
+.desc-tyc{
+  font-size: 15px;
+  text-align: justify;
+  border-radius: 10px;
+}
+.btn-list-session{
+  background: transparent;
+  font-size: 15px;
+  border: none;
+}
+.btn-list-session:hover{
+  background: transparent;
+}
+.btn-list-session{
+  background: transparent !important;
+  border:none !important;
+}
+.c-logo{
+  width: 70px;
+  overflow: hidden;
+  padding: 0px !important;
+}
+.c-logo img{
+  width: 100%;
+}
 /*RESPONSIVE*/
 
-/* Tablets en horizonal y escritorios normales*/
+/* Tablets en horizonal y escritorios normales
 @media (min-width: 768px) and (max-width: 1199px){ 
   .c-search{
     width: 100%;
@@ -500,9 +547,9 @@
     text-align: left;
     font-size: 12px;
   }
-}
+}*/
  
-/* Móviles en horizontal o tablets en vertical*/
+/* Móviles en horizontal o tablets en vertical
 @media (max-width: 767px){
   .c-search{
     width: 100%;
@@ -521,8 +568,8 @@
     font-size: 12px;
   }
 }
- 
-/*Móviles en vertical*/
+ */
+/*Móviles en vertical
 @media (max-width: 480px){
   .c-search{
     width: 100%;
@@ -539,3 +586,4 @@
     font-size: 12px;
   }
 }
+*/
